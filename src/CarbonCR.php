@@ -94,6 +94,7 @@ class CarbonCR extends Carbon
 
 
                 $details = (object)[
+                    'index' => $holidays[$index]['index'],
                     'name' => $holidays[$index]['name'],
                     'date' => $date,
                     'days_away' => $days_until
@@ -115,6 +116,7 @@ class CarbonCR extends Carbon
                 }
 
                 $details = (object)[
+                    'index' => $holidaysDate['index'],
                     'name' => $holidaysDate['name'],
                     'date' => $date,
                     'days_away' => $days_until

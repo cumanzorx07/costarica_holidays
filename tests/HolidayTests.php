@@ -25,7 +25,7 @@ class HolidayTests extends TestCase
 
     public function testNextHoliday()
     {
-        $holiday = CarbonCR::now()->getHolidaysInDays(15);
+        $holiday = CarbonCR::now()->getHolidaysInDays(80);
 
         $this->assertIsArray($holiday);
         print_r($holiday);
