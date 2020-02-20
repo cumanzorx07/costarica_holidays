@@ -12,6 +12,7 @@ class HolidaysEnum extends Enum
     //Febrero
     const FEBRERO14_DIA_DE_SAN_VALENTIN                         = 2;
     //MARZO
+    const MARZO03_DIA_DE_VIDA_SILVESTRE                         = 19;
     const MARZO20_DIA_DE_BATALLA_SANTA_ROSA                     = 3;
     //ABRIL
     const ABRIL11_DIA_DE_BATALLA_DE_RIVAS                       = 4;
@@ -41,6 +42,7 @@ class HolidaysEnum extends Enum
     private $dates = [
         1 => [ 'date' => '01/01', 'label' => 'Año nuevo', ],
         2 => [ 'date' => '02/14', 'label' => 'Día de San Valentín', ],
+        19 => [ 'date' => '03/03', 'label' => 'Día del Mundial de la vida silvestre (Día de la naturaleza)', ],
         3 => [ 'date' => '03/20', 'label' => 'Día del aniversario de la batalla de Santa Rosa', ],
         4 => [ 'date' => '04/11', 'label' => 'Día del aniversario de la batalla de Rivas', ],
         5 => [ 'date' => '05/01', 'label' => 'Día del trabajador', ],
